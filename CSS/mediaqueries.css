@@ -1,0 +1,66 @@
+@media (max-width: 1210px) {
+	.header {
+		display:block;
+	}
+}
+
+@media (max-width: 1100px) {
+	.cont-contenido h2 {
+		font-size: 3.1rem;
+	}
+	
+	.cont-contenido .parrafo {
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width: 935px) {
+	.header {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.cont-contenido h2 {
+		font-size: 2.8rem;
+	}
+	
+	.cont-contenido .parrafo {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 780px) {
+/*menu de hamburguesa*/
+.navbar ul {
+	display: none;
+}
+
+.cont-background {
+	flex-direction: column;
+	height: 100vh;
+}
+
+.cont-contenido {
+	padding-left: 0;
+}
+
+.cont-contenido .cont-boton a {
+	width: 60%;
+	margin: 0 auto;
+}
+}
+
+@media (max-width: 320px) {
+	.cont-contenido h2 {
+		font-size: 2rem;
+		margin: 0;
+	}
+	
+	.cont-contenido .parrafo {
+		font-size: 0.8rem;
+	}
+
+	.cont-contenido .cont-boton a {
+		font-size: 1rem;
+	}
+}
