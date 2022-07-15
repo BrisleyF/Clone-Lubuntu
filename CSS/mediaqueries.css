@@ -1,6 +1,18 @@
+@media (min-width: 1280px) {
+
+	.header {
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+	.cont-background {
+		background-repeat: repeat-x;
+	}
+}
+
 @media (max-width: 1210px) {
 	.header {
-		display:block;
+		display: block;
 	}
 }
 
@@ -8,7 +20,7 @@
 	.cont-contenido h2 {
 		font-size: 3.1rem;
 	}
-	
+
 	.cont-contenido .parrafo {
 		font-size: 1.2rem;
 	}
@@ -23,31 +35,32 @@
 	.cont-contenido h2 {
 		font-size: 2.8rem;
 	}
-	
+
 	.cont-contenido .parrafo {
 		font-size: 1rem;
 	}
 }
 
 @media (max-width: 780px) {
-/*menu de hamburguesa*/
-.navbar ul {
-	display: none;
-}
 
-.cont-background {
-	flex-direction: column;
-	height: 100vh;
-}
+	/*menu de hamburguesa*/
+	.navbar ul {
+		display: none;
+	}
 
-.cont-contenido {
-	padding-left: 0;
-}
+	.cont-background {
+		flex-direction: column;
+		height: 100vh;
+	}
 
-.cont-contenido .cont-boton a {
-	width: 60%;
-	margin: 0 auto;
-}
+	.cont-contenido {
+		padding-left: 0;
+	}
+
+	.cont-contenido .cont-boton a {
+		width: 60%;
+		margin: 0 auto;
+	}
 }
 
 @media (max-width: 320px) {
@@ -55,7 +68,7 @@
 		font-size: 2rem;
 		margin: 0;
 	}
-	
+
 	.cont-contenido .parrafo {
 		font-size: 0.8rem;
 	}

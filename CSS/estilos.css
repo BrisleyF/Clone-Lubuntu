@@ -62,13 +62,13 @@
 }
 
 .cont-background {
-	background-image: url(/Clone\ -\ Lubuntu/img/fondo.png);	
+	background-image: url(/Img/fondo.png);	
 	background-repeat: no-repeat;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 55vh;
+	height: 100%;
 }
 
 .cont-contenido {
@@ -137,4 +137,61 @@
 .cont-img img {
 	max-width: 100%;
 	
+}
+
+.section {
+	padding: 3.1rem 0;
+}
+
+.section .section-contenido {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #7a7a7a ;
+}
+
+.section {
+	border-bottom: 2px solid #c6c6c6;
+}
+
+.section .section-contenido h1 {
+	font-weight: 100;
+	margin: 0.7rem 0;
+}
+
+.section .section-contenido p {
+	margin: 0.9rem 0;
+}
+
+.section-contenido-flex2 {
+	display: flex;
+	text-align: center;
+}
+
+.background {
+	background-color: #f8f8f8 ;
+}
+
+.section-columna--modificar {
+	border-right: 1px solid #c6c6c6;
+}
+
+.section-columna {
+	padding: 0.6rem;
+}
+
+.icon {
+	font-size: 3rem;
+	color: #0066bb;
+}
+
+.section-contenido-flex3 {
+	display: flex;
+	text-align: justify;
+}
+
+.cont-img img {
+	width: 100%;
 }
