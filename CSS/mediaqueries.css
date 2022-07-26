@@ -63,11 +63,50 @@
 }
 
 @media (max-width: 780px) {
+	.header {
+		display: flex;
+		justify-content: space-between;
+		height: 80px;
+	}
 
 	/*menu de hamburguesa*/
 	.navbar ul {
-		display: none;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 55px;
+		left: 0;
+		background-color: #1e73be;
 	}
+
+	.navbar ul li {
+		border-bottom: 2px solid #414141;
+	}
+
+	.navbar ul .item--modificarWiki {
+		border: none;
+	}
+
+	.cont-menu-hamburguesa {
+		margin-right: 1rem;
+	}
+
+	.menu-hamburguesa {
+		display: block;
+		font-size: 2.5rem;
+		color: #fff;
+		position: relative;
+		top: 1.5rem;
+	}
+
+	.active {
+		transform: translateX(-600px);
+	}
+
+	.opacity {
+		background-color: #414141;
+	}
+
 
 	.cont-background {
 		flex-direction: column;
@@ -109,7 +148,23 @@
 	}
 }
 
+@media (max-width: 410px) {
+	.header .cont-logo img{
+		width: 150px;
+		height: 80px;
+	}
+
+	.menu-hamburguesa {
+		font-size: 2em;
+	}
+}
+
 @media (max-width: 320px) {
+	.header {
+		width: 90%;
+		margin: 0 auto ;
+	}
+
 	.cont-contenido h2 {
 		font-size: 2rem;
 		margin-top: 3rem;
