@@ -20,8 +20,8 @@
 						<img class="logo" src="Img/logo.png" width="" height="" alt="The official Lubuntu home">
 					</a>
 				</div>
-				<nav class="navbar">
-					<ul id="main-menu-1" class="menu">
+				<nav class="navbar" id="navbar-menu">
+					<ul id="menu" class="menu active">
 						<li class="item">
 							<a href="https://lubuntu.me/blog/">Blog</a>
 						</li>
@@ -31,7 +31,7 @@
 						<li class="item item--modificado">
 							<a href="https://phab.lubuntu.me">Phabricator</a>
 							<ul class="sub-menu">
-								<li>
+								<li class="item item--modificarWiki">
 									<a href="https://phab.lubuntu.me/w/">Wiki</a>
 								</li>
 							</ul>
@@ -53,6 +53,9 @@
 						</li>
 					</ul>
 				</nav>
+				<div class="cont-menu-hamburguesa">
+					<ion-icon id="menu-hamburguesa" class="menu-hamburguesa" name="menu"></ion-icon>
+				</div>
 			</header>
 		</div>
 		<!--seccion con imagen de fondo-->
@@ -310,6 +313,7 @@
 		</footer>
 	</div>
 	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<script src="/JS/main.js"></script>
 </body>
 
 </html>
